@@ -1,0 +1,41 @@
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+body {
+    background-color: rgb(36, 36, 36);
+}
+h1 {
+    color: white;
+    font-family: "zwizz";
+    font-size: 110px;
+    line-height: 55%;
+}
+h2 {
+    color: white;
+    font-family: "zwizz";
+    font-size: 60px;
+    line-height: 35%;
+}
+twitter {
+    color:rgb(251, 255, 218)
+}
+linkedin {
+    color:rgb(143, 53, 179)
+}
+github {
+    color:rgb(190, 97, 35)
+}
+simone {
+    color:rgb(223, 246, 255)
+}
+music {
+    color:rgb(126, 126, 126)
+}
+a {
+    text-decoration: none;
+}
