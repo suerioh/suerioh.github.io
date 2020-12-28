@@ -7,20 +7,22 @@
     transform: translate(-50%, -50%);
 }
 body {
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(27, 27, 27);
 }
 h1 {
     color: white;
-    font-family: "zwizz";
-    font-size: 110px;
-    line-height: 55%;
+    font-size: 120px;
+    font-family: 'Zwizz', sans-serif;
+    line-height: 50%;
 }
 h2 {
     color: white;
-    font-family: "zwizz";
-    font-size: 60px;
-    line-height: 35%;
+    font-family: 'Zwizz', sans-serif;
+    font-size: 50px;
+    line-height: 40%;
 }
+
+
 twitter {
     color:rgb(251, 255, 218)
 }
@@ -31,11 +33,19 @@ github {
     color:rgb(190, 97, 35)
 }
 simone {
-    color:rgb(223, 246, 255)
+    color:rgb(212, 243, 255)
 }
 music {
     color:rgb(126, 126, 126)
 }
 a {
     text-decoration: none;
+}
+
+
+h2:hover {
+    opacity: 0.7;
+}
+simone:hover{
+    opacity: 0.7;
 }
