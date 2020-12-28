@@ -6,20 +6,41 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+.footer {
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 body {
     background-color: rgb(27, 27, 27);
 }
 h1 {
     color: white;
-    font-size: 120px;
+    font-size: 100px;
     font-family: 'Zwizz', sans-serif;
     line-height: 50%;
 }
 h2 {
     color: white;
     font-family: 'Zwizz', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 40%;
+}
+h3 {
+    color: white;
+    font-family: 'calibri', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40%;
+    opacity: 0.2;
+}
+hr {
+    text-align:center;
+    opacity: 0.2;
 }
 
 
